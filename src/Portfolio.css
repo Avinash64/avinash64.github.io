@@ -1,0 +1,31 @@
+.page {
+    color: white;
+    background-color: #171717;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.intro {
+    background-color: rgb(11, 42, 69);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images-assets.nasa.gov/image/PIA20498/PIA20498~small.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 5rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
